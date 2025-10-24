@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - HASSANE ISSAKA Mahaman Sadat</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Animation d'introduction ===== -->
+  <div id="intro">
+    <h1 class="intro-text">HASSANE ISSAKA<br><span>Mahaman Sadat</span></h1>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-gold" href="#">SadatDev</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header id="home" class="hero d-flex align-items-center justify-content-center text-center text-white">
+    <div class="container">
+      <img src="img.jpg.jpg" alt="Photo de profil" class="rounded-circle mb-4 profile-pic">
+      <h1 class="fw-bold mb-2 text-gold">HASSANE ISSAKA Mahaman Sadat</h1>
+      <p id="typed-text" class="lead"></p>
+      <a href="#projects" class="btn btn-gold mt-4">Voir mes projets</a>
+    </div>
+  </header>
+
+  <!-- ===== À PROPOS ===== -->
+  <section id="about" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <h2 class="text-gold mb-4 fw-bold">À propos de moi</h2>
+      <p class="w-75 mx-auto">
+        Je suis un développeur Full Stack & Android passionné par la création de solutions digitales modernes et performantes. 
+        Toujours curieux, j’explore de nouvelles technologies et j’aime concevoir des expériences utilisateurs fluides et intuitives.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== COMPÉTENCES ===== -->
+  <section id="skills" class="py-5 bg-black text-white text-center">
+    <div class="container">
+      <h2 class="text-gold fw-bold mb-5">Mes Compétences</h2>
+      <div class="row gy-4">
+        <div class="col-md-2 col-4"><i class="bi bi-filetype-html skill-icon"></i><p>HTML</p></div>
+        <div class="col-md-2 col-4"><i class="bi bi-filetype-css skill-icon"></i><p>CSS</p></div>
+        <div class="col-md-2 col-4"><i class="bi bi-filetype-js skill-icon"></i><p>JavaScript</p></div>
+        <div class="col-md-2 col-4"><i class="bi bi-filetype-php skill-icon"></i><p>PHP</p></div>
+        <div class="col-md-2 col-4"><i class="bi bi-cup-hot skill-icon"></i><p>Java</p></div>
+        <div class="col-md-2 col-4"><i class="bi bi-c-square skill-icon"></i><p>C++</p></div>
+        <div class="col-md-2 col-4"><i class="bi bi-terminal skill-icon"></i><p>Python</p></div>
+        <div class="col-md-2 col-4"><i class="bi bi-database skill-icon"></i><p>MySQL</p></div>
+        <div class="col-md-2 col-4"><i class="bi bi-android2 skill-icon"></i><p>Android</p></div>
+        <div class="col-md-2 col-4"><i class="bi bi-github skill-icon"></i><p>Git / GitHub</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJETS ===== -->
+  <section id="projects" class="py-5 bg-dark text-white text-center">
+    <div class="container">
+      <h2 class="text-gold fw-bold mb-5">Mes Projets GitHub</h2>
+      <div id="project-list" class="row gy-4 justify-content-center"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="py-5 text-center bg-black text-white">
+    <div class="container">
+      <h2 class="text-gold mb-4 fw-bold">Contact</h2>
+      <p><i class="bi bi-envelope"></i> <a href="mailto:assanemohamedsadate1@gmail.com" class="text-gold">assanemohamedsadate1@gmail.com</a></p>
+      <p><i class="bi bi-github"></i> <a href="https://github.com/Sadate112" class="text-gold" target="_blank">Sadate112</a></p>
+      <p><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/mahaman-sadat-hassane-issaka-5a51301b8" class="text-gold" target="_blank">LinkedIn</a></p>
+      <a href="cv.pdf" class="btn btn-gold mt-3" download>Télécharger mon CV</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-dark text-center text-white py-3">
+    <p class="mb-0">© 2025 - HASSANE ISSAKA Mahaman Sadat | Tous droits réservés</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
